@@ -1,1 +1,6 @@
 C:\Users\Veronica\Desktop\Puzzle Solver\Puzzle Solver\bin\Debug\Puzzle Solver.exe.config
+C:\Users\Veronica\Desktop\Puzzle Solver\Puzzle Solver\bin\Debug\Puzzle Solver.exe
+C:\Users\Veronica\Desktop\Puzzle Solver\Puzzle Solver\bin\Debug\Puzzle Solver.pdb
+C:\Users\Veronica\Desktop\Puzzle Solver\Puzzle Solver\obj\Debug\Puzzle Solver.csprojResolveAssemblyReference.cache
+C:\Users\Veronica\Desktop\Puzzle Solver\Puzzle Solver\obj\Debug\Puzzle Solver.exe
+C:\Users\Veronica\Desktop\Puzzle Solver\Puzzle Solver\obj\Debug\Puzzle Solver.pdb

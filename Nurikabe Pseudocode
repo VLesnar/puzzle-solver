@@ -1,0 +1,34 @@
+/* Nurikabe */
+
+/* Starting Values */
+int N*N space array // Represents filled/empty/unknown spaces; -1 = unknown, 0 = empty, 1 = filled
+int N*N number array // Represents spaces with # values; 0 = no # value in space
+int islandCount = sum of all # values // Represents how many spaces must be empty in solution
+int wallCount = all spaces - islandCount // Represents how many spaces must be filled in solution
+
+/* Starting Out */
+make all # value spaces empty
+if(# value space == 1) {
+	fill all adjacent (V, H, D) unknown spaces
+}
+
+if(# value space == # adjacent (V, H) unknown spaces) {
+	fill adjacent unknown spaces
+}
+
+/* Solving Loop - Empty Squares First */
+find top-left-most # value space, make left-most adjacent (V, H) square empty
+if (# value space == # of adjacent filled spaces) {
+	move to next top-left-most # value
+}
+if(filled spaces arranged in 2*2 grid or larger) {
+	instead make space white instead of backtracking
+}
+
+/* End Check */
+if (wallCount == filled spaces in space array) {
+	pathfinding algorithm to check all spaces are connected
+	/* Perhaps check to see starting from top-left-most filled corner and check adjacent (V, H) spaces for
+	filled spaces; At the end of all possible paths, make sure the count of filled squares on the path is
+	equivalent to wallCount */
+}
